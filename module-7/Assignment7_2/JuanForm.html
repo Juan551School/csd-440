@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information Form</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form action="JuanResponse.php" method="post">
+
+    <!-- Text -->
+    First Name: <input type="text" name="firstName"><br><br>
+
+    <!-- Text -->
+    Last Name: <input type="text" name="lastName"><br><br>
+
+    <!-- Email -->
+    Email: <input type="email" name="email"><br><br>
+
+    <!-- Number -->
+    Age: <input type="number" name="age"><br><br>
+
+    <!-- Date -->
+    Date of Birth: <input type="date" name="dob"><br><br>
+
+    <!-- Select -->
+    Eye Color:
+    <select name="eyeColor">
+        <option value="">Select</option>
+        <option value="Brown">Brown</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Hazel">Hazel</option>
+        <option value="Hazel">Red</option>
+        <option value="Hazel">Amber</option>
+    </select><br><br>
+
+    <!-- Checkbox -->
+    Agree to Terms:
+    <input type="checkbox" name="terms" value="yes"><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
